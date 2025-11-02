@@ -1,0 +1,36 @@
+{
+  "name": "ai-trading-platform",
+  "version": "1.0.0",
+  "description": "AI-Oriented Trading Platform - Discussion board with AI-powered features",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon backend/server.js",
+    "client": "cd frontend && npm start",
+    "install-all": "npm install && cd frontend && npm install",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": ["trading", "ai", "forum", "stocks", "portfolio"],
+  "author": "Peiwen Li, Shiyang Zhang, Sizhuang He, Yangtian Zhang",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "express-validator": "^7.0.1",
+    "axios": "^1.6.0",
+    "natural": "^6.10.0",
+    "sentiment": "^5.0.2",
+    "openai": "^4.20.0",
+    "node-cron": "^3.0.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "concurrently": "^8.2.2"
+  }
+}
