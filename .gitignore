@@ -14,7 +14,3 @@ dist/
 coverage/
 .nyc_output/
 
-# Exclude markdown documentation files
-*.md
-!.github/*.md
-.claude/
