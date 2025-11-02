@@ -36,3 +36,27 @@ Backend: http://localhost:5000
 - Portfolio management with analytics
 - Stock news integration
 - Admin moderation tools
+
+## TODO
+
+Security
+- Rate limiting for API endpoints
+- Input validation middleware
+- CSRF protection
+- Password reset functionality
+- Email verification
+
+Features
+- Real-time notifications (Socket.io)
+- User follow/followers system
+- Post search and filtering
+- Image upload (avatars, post images)
+- Direct messaging
+- Trending posts/topics
+
+Performance
+- Redis caching for hot data
+- Database indexing optimization
+- Pagination for data loading
+- Image compression and CDN
+- Code splitting and lazy loading
